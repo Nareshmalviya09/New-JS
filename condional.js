@@ -127,7 +127,7 @@
 
 
     let num = parseInt(prompt("enter your number"))
-
+   
     if(num>0){
      if(num%2==0){
 
