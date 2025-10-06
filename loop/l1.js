@@ -43,13 +43,61 @@
 
 // for loop
 
-  var sum=0
- for( let i=0; i<=15;i++ ){
-     if(i%2==0)
-     {
-        sum= sum+i+1;
-     }
- }
- console.log(sum);
+//   var sum=0
+//  for( let i=0; i<=15;i++ ){
+//      if(i%2==0)
+//      {
+//         sum= sum+i+1;
+//      }
+//  }
+//  console.log(sum);
+
+     document.write("<h1>java&nbspScript <br> class<\h1>")
  
+  // nested forloop
+
   
+  // for(var i=1;i<=3;i++){
+    //   for(var r=1;r<=5;r++){
+      //       document.write("*")
+      //   }
+      //   document.write("<br>")
+      // }
+
+      // for(var i=1;i<=4;i++){
+      //   for(var r=1;r<=5;r++){
+      //      if(r<=i){
+      //      document.write("*")
+      //       } 
+      //       else{
+      //         document.write(" ")
+      //       }
+          
+      //   }   
+      //   document.write("<br>")
+      // }
+
+      // for(var i=1;i<=5;i++){
+      //   for(var r=1;r<=5;r++){
+      //      if(i==1 || i==5 ||  r==1 || r==5){
+      //      document.write("*")
+      //       } 
+      //       else{
+      //         document.write("&nbsp&nbsp")
+      //       }
+          
+      //   }   
+      //   document.write("<br>")
+      // }
+      // for(var i=1;i<=5;i++){
+      //   for(var r=1;r<=5;r++){
+      //      if(i==r || i+r==6){
+      //      document.write("*")
+      //       } 
+      //       else{
+      //         document.write("&nbsp&nbsp")
+      //       }
+          
+      //   }   
+      //   document.write("<br>")
+      // }
