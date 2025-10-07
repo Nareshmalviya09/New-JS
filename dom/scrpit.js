@@ -20,3 +20,6 @@ a.setAttribute('align','center')
 document.body.setAttribute('bgcolor','yellow')
 
 document.getElementById('one').removeAttribute('style')
+
+document.getElementById("oo").setAttribute('src','img.png')
+ 
