@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .add{
+
+                background-color: black;
+                color: white;
+            }
+        
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <h1>hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, error.</p>
+        <img src="./img.png" height="50px" alt="">
+        <button id="btn" onclick="add()">Dark</button>
+    </div>
+  <script> 
+
+    function add(){
+
+        let a = document.querySelector('body')
+        let an = a.classList.toggle('add')
+        if(an==true){
+            document.querySelector('#btn').textContent = "Light"
+        }
+        else{
+             document.querySelector('#btn').textContent = "Dark"
+        }
+        // document.getElementById('btn').style.color='yellow'
+    }
+  </script>
+
+    
+</body>
+</html>

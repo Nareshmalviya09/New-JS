@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrapper{
+            
+            background-color: red;
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div  id="container"></div>
+    <button onclick="fun()">ADD</button>
+    <button onclick="fun1()">remove css</button>
+    <button onclick="both()">Both</button>
+</body>
+
+<script>
+function fun(){
+    let a = document.querySelector('#container')
+    a.classList.add('wrapper')
+    a.textContent="hello"
+}
+
+function fun1(){
+    let r = document.querySelector('#container')
+    r.classList.remove('wrapper')
+    
+}
+function both(){
+    let b = document.querySelector('#container')
+    b.classList.toggle('wrapper')
+    
+}
+
+
+
+</script>
+</html>

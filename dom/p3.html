@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         #two{
+                  display: flex;
+                  gap: 50px;
+
+         }
+         .sec{
+            display: flex;
+            gap: 50px;
+         }
+    </style>
+</head>
+<body>
+
+   <section class="sec">
+      <div id="one">
+
+     <button id="mobile"  onclick="mob()">Mobile</button>
+    <h2 id="laptop" onmouseenter="chng()"  >Laptop</h2>
+
+
+
+    <button id="tab" oncontextmenu="tab()">Tablet</button>
+   </div>
+
+   <div id="two" >
+
+     <img id="lp" alt="">
+    
+   </div>
+    
+   </section>
+</body>
+</html>
+<script>
+ function mob(){
+    document.getElementById('lp').src ='img.png'
+ }
+
+
+ function chng(){
+    document.getElementById('lp').src ='img2.jpg'
+ }
+ 
+
+ function tab(){
+
+   document.getElementById('lp').src ='tab.jpg'
+ }
+
+</script>
