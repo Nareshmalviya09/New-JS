@@ -10,13 +10,14 @@ let h=document.getElementById('h')
 function str(){
     let count =0
 
-
 st = setInterval(()=>{
 count++;
 h.textContent=count
 
 },1000)
 }
+
+// clearInterval():- for stop setinterval 
 function stop(){
     clearInterval(st)
 }

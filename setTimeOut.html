@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hd{
+            display: none;
+        }
+        #p{
+            display: none;
+        }
+       
+
+    </style>
+</head>
+<body>
+    
+    <h1></h1>
+  <img id="image" alt="">
+
+
+
+  <h1 id="hd">heading</h1>
+  <p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, aperiam!</p>
+  <button id="btn" onclick="btn()">button</button>
+    <script>
+
+        // setTimeout(()=>{
+        //     alert("WORKING...")
+        // },3000)
+
+
+
+        // setTimeout(()=>{
+        //    document.querySelector('#image').src="img.png"
+        // },3000)
+
+      function btn(){
+          setTimeout(()=>{
+           document.querySelector('#hd').style.display="block"
+           document.querySelector('#p').style.display="block"
+        //    document.querySelector('#btn').style.display="block"
+        },3000)
+      }
+    </script>
+</body>
+</html> 
