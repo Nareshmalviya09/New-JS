@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="btn">submit</button>
+    <button id="btn1">submit</button>
+    <button id="btn2">submit</button> -->
+
+   <h1 id="h">0</h1>
+    <button id="plus">++</button>
+    <button id="minus">--</button>
+    <button id="reset">reset</button>
+    
+
+
+</body>
+</html>
+<script>
+//    document.querySelector('#btn').addEventListener('click',function(){
+//     alert("working.. click")
+//    })
+//    document.querySelector('#btn1').addEventListener('dblclick',function(){
+//     alert("working..db")
+//    })
+//    document.querySelector('#btn2').addEventListener('mouseenter',function(){
+//     alert("working..mouse")
+//    })
+
+let a=0
+document.querySelector('#plus').addEventListener('click',function(){
+document.querySelector('#h').innerHTML= ++a
+
+})
+document.querySelector('#minus').addEventListener('click',function(){
+    if(a>0){
+document.querySelector('#h').innerHTML= --a
+    }
+})
+document.querySelector('#reset').addEventListener('click',function(){
+    
+document.querySelector('#h').innerHTML= '0'
+    
+})
+
+
+
+
+ 
+</script>

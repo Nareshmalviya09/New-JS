@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit=" return fun()">
+
+        <label for="">name</label>
+    <input type="text"  name="" id="name">
+    <label for="">last name</label>
+    <input type="text"  name="" id="lsname">
+    <label for="">age</label>
+    <input type="text"  name="" id="age">
+    <label for="">add</label>
+    <input type="text"  name="" id="add">
+    <label for="">city</label>
+    <input type="text"  name="" id="city">
+    <input type="submit">
+
+    <h1 id="r1"></h1>
+    <h1 id="r2"></h1>
+    <h1 id="r3"></h1>
+    <h1 id="r4"></h1>
+    <h1 id="r5"></h1>
+    </form>
+    
+</body>
+</html>
+<script>
+
+    function fun(){
+       let  name= document.querySelector("#name").value
+       let lsname= document.querySelector("#lsname").value
+       let age= parseInt(document.querySelector("#age").value)
+       let add= document.querySelector("#add").value
+       let city= document.querySelector("#city").value
+            document.querySelector("#r1").innerHTML = name
+            document.querySelector("#r2").innerHTML = lsname
+            document.querySelector("#r3").innerHTML = age
+            document.querySelector("#r4").innerHTML = add
+            document.querySelector("#r5").innerHTML = city
+            return false
+
+
+    }
+</script>
+
+
+
+
