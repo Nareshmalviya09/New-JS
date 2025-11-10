@@ -6,18 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- string is datatype in js it is collation of character -->
+    <!-- string is a datatype in js it is collation of character -->
 </body>
 </html>
 <script>
-
-
     let name = "naresh"
-    city= "BHOPAL"
+    city = "BHOPAL"
+    spacename = "   rahul   "
     console.log(city.toLowerCase());
     
    console.log( name.toUpperCase());
-   
+   console.log(spacename.trim());  // trim remove extra space from starting and ending position
+                                   // charAt(), inludes(), match(), 
     // console.log(name[4]);
+                            
+    let faculty =" by qasim"
+    let st = " this is \njs class"
+
+    // tamplate literals => it donatet by peptic sign(``)
+    
+    let st1 = `this is javaScript
+    class ${faculty} with tampate litrals`
+    console.log(st1);
+    
     
 </script>
