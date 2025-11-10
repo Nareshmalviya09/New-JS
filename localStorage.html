@@ -17,6 +17,26 @@
 </body>
 </html>
 <script>
+ localStorage.setItem("username","naresh")
+ localStorage.setItem("age",25)
+ localStorage.setItem("city","bhopal")
 
+
+let un= localStorage.getItem("username")
+// console.log(un);
+
+localStorage.removeItem("age")
+
+let person={
+    name:"naresh",
+    age:25,
+    city:"Bhopal"
+}
+// jeson.stringify ==> it convert data into String
+localStorage.setItem("userdata",JSON.stringify(person))
+
+// json.parse ---> it convert into object and array like provide indexing
+let pdata=JSON.parse(localStorage.getItem("userdata"))
+console.log(pdata.name);
 
 </script>
